@@ -8,6 +8,7 @@ from XoCrawler.items import XocrawlerItem
 class XoSpider(scrapy.Spider):
     name = "Xo"
     allowed_domains = ["xo.gr"]
+    
     # start_urls = (
     #     'https://www.xo.gr/dir-az/L/Logistika-Grafeia-Logistes/Kallithea%20Attikis/',
     # )
